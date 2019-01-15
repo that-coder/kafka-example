@@ -15,7 +15,7 @@ Extract the contents of the kafka archive to a convenient place and `cd` into it
 
 #### Zookeeper
 - Edit the config file `config/server.properties` and change the `dataDir` entry to some place that does not get wiped after a reboot.
-Ex:`dataDir=/home/neoito/tmp/zookeeper`
+Ex:`dataDir=/home/user/tmp/zookeeper`
 - Start the zookeeper instance with
 `$ bin/zookeeper-server-start.sh config/zookeeper.properties`
 
