@@ -15,11 +15,11 @@ jobs:
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: thatcoder
-        DISCORD_AVATAR: https://resize.programme-television.ladmedia.fr/r/670,670/img/var/premiere/storage/images/tele-7-jours/news-tv/oss-117-le-caire-nid-d-espions-c8-le-show-de-jean-dujardin-4484285/90175763-1-fre-FR/OSS-117-Le-Caire-nid-d-espions-C8-Le-show-de-Jean-Dujardin.jpg
-      uses: Ilshidur/action-discord@master
+        DISCORD_AVATAR: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjxQgor36gXF1grBxcWqpjnqJP5TuM5C9VPDJdJahpvI8MQ6xy
+      uses: that-coder/kafka-example@master
       with:
         args: 'A new commit has been pushed to Ilshidur/action-discord.'
     - name: Discord notification
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      uses: Ilshidur/action-discord@master
+      uses: that-coder/kafka-example@master
