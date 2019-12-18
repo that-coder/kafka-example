@@ -1,4 +1,4 @@
-name: Notification on push
+name: Notifications on push
 
 on:
   push:
