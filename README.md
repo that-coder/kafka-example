@@ -27,7 +27,7 @@ Ex:`dataDir=/home/user/tmp/zookeeper`
 broker.id=1  #unique id for our broker instance
 port=9092    #port where it listens
 delete.topic.enable=true   #if we want to delete kafka topic stored in broker
-log.dirs=/home/neoito/kafka-logs/01  #to a place thats not volatile
+log.dirs=/home/thatcoder/kafka-logs/01  #to a place thats not volatile
 advertised.host.name=10.0.0.81 #prevents leader not found error when connecting from remote machine
 ```
 
